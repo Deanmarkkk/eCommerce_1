@@ -6,33 +6,55 @@
     <title>Pixed Picks</title>
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/shop.css">
 </head>
 <body>
     <header>
-        <div class="logo-text">
-            <h1>Mini Digital Art Store</h1>
+        <div class="logo">
+            <a href="index.html"><img class="img-logo" src="image/logo.png" alt="logo"></a>
+            <p class="title">PixedPicks</p>
         </div>
-        <div class="header-container">
-            <div>
-                <a href="index.html"><img class="logo-img" src="image/home.png" alt="logo"></a>
-            </div>
-            <a class="cart-container" href="js/cart.js">
-                <img class="cart-img" src="image/cart.png" alt="cart-img">
-                <p class="cart-txt"></p>
-            </a>
-            <a href="shop.html">
-                <img class="shop-img" src="image/shop.png" alt="shop-img">
-            </a>
+        <div class="navs">
+            <ul>
+                <a class="nav-link" href="index.html"><li>Home</li></a>
+                <a class="nav-link" href="about.html"><li>About</li></a>
+                <a class="nav-link" href="contact.html"><li>Contact</li></a>
+                <a class="nav-link" href="shop.html"><li>Shop</li></a>
+                <a class="nav-link" href="cart.html"><li>Cart</li></a>
+            </ul>
+        </div>
+        <div class="form">
+            <button class="signupButton" onclick="alert('inProgress')">Sign Up</button>
         </div>
     </header>
 
     <main>
-        <h1>Discover <span class="main-text-h1">Unique</span> Digital Art – Made for Every <span class="main-text-h1">Imagination</span></h1>
-        
-    </main>
+        <div class="main-container">
 
-    <footer>
-        <p>About: <span class="span-footer">BSIT</span> | Privacy Policy & Terms | Contact: <span class="span-footer">09164740503</span></p>
-    </footer>
+            <div class="front-main-text">
+                <div class="front-page">
+                    <div class="front-text">
+                    <p class="front-text-creator"><span class="check">✔</span> Dean Mark</p>
+                </div>
+                <div class="front-text-1">
+                    <h1 class="front-h1">Discover Unique Digital Art <br>
+                        <span class="span-h1">Made for Every Imagination</span>
+                    </h1>
+                </div>
+                <div class="front-text-2">
+                    <p class="p-text-1"> an online platform where users can browse, purchase,<br>
+                        and download unique digital artworks.</p>
+                </div>
+                    <div class="shop-now-container">
+                        <button onclick="location.href = 'shop.html'" class="shop-now-button">Shop now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="front-page-graph">
+                <img class="img-graph" src="image/bargraph.png" alt="graph">
+            </div>
+        </div>
+    </main>
 </body>
 </html>
