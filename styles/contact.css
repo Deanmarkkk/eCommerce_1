@@ -1,0 +1,18 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-images {
+    width: 70px;
+}
+.contact-main-container {
+    padding: 10px;
+    margin: 120px 10px 10px 10px;
+}
+.ig {
+    transform: scale(1.3);
+}
+.git {
+    transform: scale(1.1);
+}
