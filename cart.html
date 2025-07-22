@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixed Picks</title>
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/shop.css">
+    <link rel="stylesheet" href="styles/cart.css">
 </head>
 <body>
     <header>
@@ -28,8 +27,60 @@
         </div>
     </header>
 
-    <main>
-      
+    <main class="cart-main">
+        <div class="cart-container-1">
+            <button class="btnGoBack" onclick="location.href = 'shop.html'">Continue Shopping</button>
+        </div>
+        <div class="cart-product-main">
+            <table>
+                <tr>
+                    <th>Product Details</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td class="table-product-info">
+                        <img class="cart-product-img" src="https://thumbs.dreamstime.com/b/vibrant-digital-art-glowing-sunset-over-ocean-radiant-colors-clouds-ai-generated-343143707.jpg" alt="product-img"> <br>
+                        <p class="cart-product-name">Sunset Serenity</p> <br>
+                        <p class="cart-product-info">A calming digital artwork of a sunset over the ocean, perfect for a relaxing ambiance.</p>
+                    </td>
+                    <td><p class="cart-product-qty">1</p></td>
+                    <td><p class="cart-product-price">₱ 300.00</p></td>
+                </tr>
+
+                <tr>
+                    <td class="table-product-info">
+                        <img class="cart-product-img" src="https://images.stockcake.com/public/9/a/c/9acc1f85-25f0-4fc1-a995-53537b06032a_large/tropical-sunset-art-stockcake.jpg" alt="product-img"> <br>
+                        <p class="cart-product-name">Minimalist Mountains</p> <br>
+                        <p class="cart-product-info">A simple yet elegant minimalist mountain landscape digital art.</p>
+                    </td>
+                    <td><p class="cart-product-qty">1</p></td>
+                    <td><p class="cart-product-price">₱ 180.00</p></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="cart-product-checkout">
+            <div class="cart-checkout-main">
+                <div class="cart-product-header">
+                    <p class="cart-p-1">Product Total</p>
+                </div>
+
+                <div class="cart-product-form">
+                    <p class="cart-subtotal">Subtotal (<span class="sub-span">1 items</span>)</p>
+                    <p class="cart-sf">Shipping costs <span class="sf-cost">Free</span></p>
+                </div>
+
+                <div class="cart-checkout-container">
+                    <p class="cart-total">Total <span class="total-checkout">₱ 300.00</span></p>
+                </div>
+
+                <div class="checkout-btn">
+                    <button class="checkoutBtn">Checkout</button>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

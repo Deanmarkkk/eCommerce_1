@@ -22,10 +22,11 @@ main {
 }
 .purpose-container, .key-purpose-container, .target-user-container, .tech-container {
     border: 1px solid rgba(0, 0, 0, .3);
-    padding: 5px;
-    margin: 5px;
+    padding: 2px;
+    margin: 5px 20px;
     border-radius: 5px;
+    background-color: rgb(238, 238, 238);
 }
 .p-main-text {
-    font-size: 14px;
+    font-size: 13.5px;
 }
