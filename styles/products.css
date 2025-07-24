@@ -7,7 +7,9 @@
 
 }
 .product-image {
-    width: 250px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
     border: none;
     border-radius: 5px;
 }
@@ -16,8 +18,11 @@
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
-    height: 410px;
+    height: auto;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .product-name {
     font-size: 12px;
@@ -39,4 +44,13 @@
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(149, 219, 247);
     background-color: rgb(64, 190, 240);
+}
+.product-info-text {
+    display: flex;
+    flex-direction: column;
+
+    height: 200px;
+    padding: 5px;
+    margin: 3px;
+    justify-content: center;
 }

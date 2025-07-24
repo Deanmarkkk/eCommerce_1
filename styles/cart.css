@@ -56,9 +56,11 @@ table, tr, td {
     text-align: center;
 }
 .cart-p-1 {
-    font-size: 26px;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 32px;
     font-weight: 500;
-    color: orange;
+    color: rgb(0, 0, 0);
     text-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
 }
 .cart-subtotal {
